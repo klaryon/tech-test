@@ -1,0 +1,46 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "jest": "^27.5.1",
+    "nodemon": "2.0.15",
+    "supertest": "^6.2.2"
+  },
+  "dependencies": {
+    "@azure/identity": "^2.0.4",
+    "@azure/keyvault-secrets": "^4.4.0",
+    "@azure/storage-blob": "^12.9.0",
+    "@sendgrid/mail": "^7.6.0",
+    "applicationinsights": "^2.2.1",
+    "axios": "^0.25.0",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "defender-relay-client": "^1.18.0",
+    "dotenv": "^10.0.0",
+    "encoding-payload": "^1.0.5",
+    "express": "~4.16.1",
+    "express-winston": "^4.2.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.12",
+    "node-2fa": "^2.0.3",
+    "onesignal-node": "^3.3.0",
+    "qrcode": "^1.5.0",
+    "swagger-ui-express": "^4.1.6",
+    "web3": "^1.6.0",
+    "winston": "^3.5.1"
+  }
+}
